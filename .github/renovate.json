@@ -1,7 +1,7 @@
 {
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "build-dependencies"],
       "groupName": "development dependencies",
       "groupSlug": "dev-deps"
     },
@@ -18,11 +18,7 @@
   ],
   "dependencyDashboard": false,
   "ignoreDeps": ["npm", "swiper", "node", "hls.js"],
-  "lockFileMaintenance": {
-    "enabled": true,
-    "extends": ["schedule:monthly"]
-  },
-  "enabledManagers": ["npm", "github-actions"],
+  "enabledManagers": ["npm", "github-actions", "cargo"],
   "labels": ["dependencies"],
   "rebaseWhen": "behind-base-branch",
   "rangeStrategy": "pin",

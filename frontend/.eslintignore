@@ -1,0 +1,10 @@
+api
+.nuxt
+dist
+.run
+.vscode
+.devcontainer
+sw.js
+frontend/.nuxt
+frontend/dist
+frontend/dist/_nuxt
