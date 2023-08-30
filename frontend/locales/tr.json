@@ -1,40 +1,75 @@
 {
   "3DFormat": "3B format",
+  "NoMediaSourcesAvailable": "Medya kaynağı bulunamadı",
   "actor": "Aktör",
   "actors": "Aktörler",
   "addNewPerson": "Yeni kişi ekle",
+  "administrator": "Yönetici",
+  "airPlayDevices": "AirPlay cihazları",
   "albums": "Albümler",
   "allLanguages": "Tüm diller",
   "alphabetically": "Alfabetik",
+  "appbar": {
+    "tasks": {
+      "configSync": "Ayarlar senkronize ediliyor…",
+      "scanningItem": "'{item}' Taranıyor…"
+    },
+    "tooltips": {
+      "tasks": "Çalışan Görevler"
+    }
+  },
   "architecture": "Mimari",
   "artist": "Sanatçı",
-  "artists": "Sanatçı",
+  "artists": "Sanatçılar",
+  "aspectRatio": "En boy oranı",
   "audio": "Ses",
+  "audioCodecNotSupported": "Bu ses codec'i desteklenmiyor",
+  "auto": "Otomatik",
   "badRequest": "Hatalı istek. Tekrar deneyin",
+  "books": "Kitaplar",
   "browserNotSupported": "Tarayıcınız bu dosya formatını oynatmak için desteklenmiyor.",
   "buttons": {
     "ok": "Tamam"
   },
   "cancel": "İptal",
   "castAndCrew": "Oyuncular & Ekip",
+  "collectionEmpty": "Bu koleksiyon boş",
   "collections": "Koleksiyon",
   "communityRating": "Topluluk puanı",
-  "confirm": "Onay",
+  "confirm": "Onayla",
   "connect": "Bağlan",
   "continueListening": "Dinlemeye Devam Et",
   "continueWatching": "İzlemeye devam et",
   "criticRating": "Eleştirmen puanı",
+  "customRating": "Özel derecelendirme",
+  "darkModeToggle": "Karanlık modu aç/kapat",
   "dateAdded": "Ekleme Tarihi",
+  "delete": "Sil",
+  "deleteItem": "Medyayı sil",
+  "deleteItemDescription": "Bu öğeyi silmek dosya sisteminden ve medya kitaplığınızdan siler. Devam etmek istediğinizden emin misiniz?",
   "details": "Detaylar",
+  "dialog": {
+    "upNext": {
+      "hide": "Gizle"
+    }
+  },
   "director": "Yönetmen",
+  "discNumber": "Disk {discNumber}",
   "dislikes": "Beğenilmeyenler",
   "edit": "Düzenle",
   "endDate": "Bitiş tarihi",
   "endsAt": "{time}'de bitiyor",
   "episodeNumber": "Bölüm {episodeNumber}",
+  "errors": {
+    "anErrorHappened": "Bir hata oluştu",
+    "messages": {
+      "errorCode": "Hata kodu: {errorCode}"
+    }
+  },
   "favorite": "Favori",
   "features": "Özellikleri",
   "filter": "Filtre",
+  "filtersNotFound": "Filtreler yüklenemedi",
   "fullScreen": "Tam ekran",
   "general": "Genel",
   "genres": "Türler",

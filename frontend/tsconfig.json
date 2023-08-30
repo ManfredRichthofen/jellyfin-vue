@@ -1,32 +1,44 @@
 {
   "compilerOptions": {
-    "target": "ES2018",
-    "module": "ESNext",
+    "target": "ES2022",
+    "module": "ES2022",
     "moduleResolution": "Node",
-    "lib": ["ESNext", "ESNext.AsyncIterable", "DOM"],
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "allowJs": true,
     "sourceMap": true,
     "strict": true,
     "noEmit": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
     "experimentalDecorators": true,
+    "removeComments": true,
     "baseUrl": ".",
     "paths": {
-      "~/*": ["./*"],
-      "@/*": ["./*"]
+      "@/*": ["src/*"]
     },
     "types": [
-      "@types/node",
-      "@nuxt/types",
-      "@types/nuxtjs__auth",
-      "@nuxtjs/axios",
-      "@nuxtjs/vuetify",
-      "@nuxtjs/date-fns",
-      "@nuxtjs/i18n",
-      "@types/wicg-mediasession",
-      "jest",
-      "@types/tizen-tv-webapis"
+      "axios",
+      "@intlify/unplugin-vue-i18n/messages",
+      "unplugin-icons/types/vue",
+      "vite-plugin-vue-layouts/client",
+      "vite/client",
+      "vuetify",
+      "vue"
     ]
-  }
+  },
+  "vueCompilerOptions": {
+    "strictTemplates": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.vue",
+    "**/**/*.json",
+    "types/**/*.d.ts",
+    ".eslintrc.cjs",
+    "vue-i18n-extract.config.js",
+    "vite.config.ts"
+  ],
+  "exclude": ["node_modules"]
 }

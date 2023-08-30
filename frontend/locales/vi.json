@@ -4,16 +4,27 @@
   "actor": "Diễn viên",
   "actors": "Diễn viên",
   "addNewPerson": "Thêm người mới",
+  "administrator": "Quản trị viên",
   "airPlayDevices": "Thiết bị AirPlay",
   "albums": "Tuyển Tập",
   "allLanguages": "Tất cả ngôn ngữ",
   "alphabetically": "Theo bảng chữ cái",
+  "appbar": {
+    "tasks": {
+      "configSync": "Đang đồng bộ hóa cài đặt…",
+      "scanningItem": "Đang quét '{item}'…"
+    },
+    "tooltips": {
+      "tasks": "Đang chạy tác vụ"
+    }
+  },
   "architecture": "Kiến trúc",
   "artist": "Nghệ sĩ",
   "artists": "Nghệ sĩ",
   "aspectRatio": "Tỷ lệ khung hình",
   "audio": "Âm thanh",
   "audioCodecNotSupported": "Bộ giải mã âm thanh không được hỗ trợ",
+  "auto": "Tự động",
   "badRequest": "Yêu cầu đã thất bại. Thử lại",
   "books": "Sách",
   "browserNotSupported": "Trình duyệt của bạn không được hỗ trợ để phát tệp này.",
@@ -34,6 +45,9 @@
   "customRating": "Xếp hạng tùy chỉnh",
   "darkModeToggle": "Chuyển đổi chế độ tối",
   "dateAdded": "Ngày thêm",
+  "delete": "Xóa",
+  "deleteItem": "Xóa phương tiện",
+  "deleteItemDescription": "Xóa mục này sẽ xóa mục đó khỏi cả hệ thống tệp và thư viện phương tiện của bạn. Bạn có chắc muốn tiếp tục không?",
   "details": "Chi tiết",
   "dialog": {
     "upNext": {
@@ -55,10 +69,16 @@
   "episodeNumber": "Tập {episodeNumber}",
   "errors": {
     "anErrorHappened": "Đã xảy ra lỗi",
+    "cantPlayItem": "Mục này không thể phát được",
     "messages": {
       "errorCode": "Mã lỗi: {errorCode}",
       "videoPlayerError": "Trình phát video gặp lỗi không thể khôi phục."
-    }
+    },
+    "playback": {
+      "mediaError": "Đã xảy ra lỗi phương tiện nghiêm trọng, đang cố khôi phục",
+      "networkError": "Đã xảy ra lỗi mạng nghiêm trọng, đang cố khôi phục"
+    },
+    "unauthorized": "Bạn không được phép truy cập trang này"
   },
   "failedRetrievingDisplayPreferences": "Không thể lấy tùy chọn hiển thị. Sử dụng cài đặt đã biết gần đây nhất.",
   "failedSettingDisplayPreferences": "Không thể cập nhật tùy chọn hiển thị.",
@@ -71,6 +91,7 @@
   "general": "Chung",
   "genericJellyfinPlaceholderDevice": "Thiết bị Jellyfin chung",
   "genres": "Thể Loại",
+  "goBack": "Quay lại",
   "googleCastPlaceholderDevice": "Thiết bị Google Cast",
   "guestStar": "Ngôi sao khách mời",
   "headerExternalIds": "ID bên ngoài",
@@ -81,6 +102,8 @@
       "recentlyAdded": "Được thêm gần đây"
     }
   },
+  "identify": "Nhận dạng",
+  "identifyInstructResult": "Bạn có thể nhấp vào một trong các thẻ này để áp dụng kết quả",
   "imageType": {
     "art": "Nghệ thuật",
     "backdrop": "Phông nền",
@@ -96,6 +119,8 @@
   },
   "images": "Ảnh",
   "incorrectUsernameOrPassword": "Sai tên đăng nhập hoặc mật khẩu",
+  "instantMix": "Trộn tức thì",
+  "instantMixQueued": "Kết hợp tức thì được thêm vào hàng đợi",
   "item": {
     "artist": {
       "appearsOn": "Hiển thị",
@@ -121,6 +146,11 @@
       "title": "Tiêu đề"
     }
   },
+  "itemMenu": {
+    "pushToBottom": "Di chuyển đến cuối",
+    "pushToTop": "Di chuyển đến đầu",
+    "removeFromQueue": "Xóa khỏi hàng đợi"
+  },
   "itemNotFound": "Không tìm thấy mục",
   "jellyfinLogo": "Logo Jellyfin",
   "latestLibrary": "Gần nhất {libraryName}",
@@ -142,6 +172,7 @@
     "changeServer": "Thay đổi máy chủ",
     "changeUser": "Thay đổi người sử dụng",
     "connect": "Kết nối",
+    "kickedOut": "Ủy quyền đã bị thu hồi và phiên này không còn hiệu lực. Xin vui lòng đăng nhập lại",
     "login": "Đăng nhập",
     "loginAs": "Đăng nhập bằng {name}",
     "manualLogin": "Đăng nhập thủ công",
@@ -165,27 +196,6 @@
     "noLogsFound": "Không tìm thấy nhật ký nào"
   },
   "manualLogin": "Đăng nhập thủ công",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Các kênh âm thanh:"
-    },
-    "audioCodec": {
-      "name": "Mã hóa âm thanh:"
-    },
-    "bitrate": {
-      "name": "Tốc độ bit:"
-    },
-    "container": {
-      "name": "Vùng chứa:"
-    },
-    "name": "Phương tiện",
-    "subtitleCodec": {
-      "name": "Mã hóa phụ đề:"
-    },
-    "videoCodec": {
-      "name": "Mã hóa video:"
-    }
-  },
   "menu": "Menu",
   "metadata": {
     "source": "Nguồn",
@@ -195,6 +205,7 @@
   },
   "metadataEditor": "Chỉnh sửa dữ liệu mô tả",
   "metadataNoResultsMatching": "Không có kết quả phù hợp \"{search}\". Nhấn enter để tạo một cái mới.",
+  "metadataRefreshQueued": "Đã làm mới dữ liệu mô tả",
   "more": "Thêm",
   "moreLikeArtist": "Xem Thêm Tương Tự {artist}",
   "moreLikeThis": "Thêm giống như này",
@@ -277,18 +288,25 @@
   "quality": "Chất lượng",
   "queue": "Xếp hàng",
   "rating": "Xếp hạng",
+  "refresh": "Làm mới",
   "refreshLibrary": "Làm mới thư viện",
+  "refreshMetadata": "Làm mới dữ liệu mô tả",
+  "refreshMetadataHint": "Dữ liệu mô tả được làm mới dựa trên cài đặt và dịch vụ internet được bật trong Trang tổng quan",
   "releaseDate": "Ngày phát hành",
   "remoteDevices": "Thiết bị từ xa",
+  "replaceAllMetadata": "Thay thế tất cả dữ liệu mô tả",
+  "replaceExistingImages": "Thay thế hình ảnh hiện có",
   "resumable": "Có Thể Tiếp Tục",
   "resume": "Bắt đầu lại",
   "role": "Vai diễn",
   "save": "Lưu",
   "saved": "Đã lưu",
+  "scanForNewAndUpdatedFiles": "Quét các tập tin mới và cập nhật",
   "search": {
     "name": "Tìm kiếm",
     "topResults": "Kết quả hàng đầu"
   },
+  "searchMissingMetadata": "Tìm kiếm dữ liệu mô tả bị thiếu",
   "seasonEpisode": "Mùa {seasonNumber}, tập {episodeNumber}",
   "seasonEpisodeAbbrev": "S{seasonNumber} E{episodeNumber}",
   "series": "Loạt Phim",
@@ -307,9 +325,11 @@
       "dateCreated": "Ngày tạo",
       "description": "Thêm và thu hồi khóa API để truy cập vào máy chủ",
       "refreshKeysFailure": "Lỗi khi làm mới khóa API",
+      "revoke": "Thu hồi",
       "revokeAll": "Thu hồi tất cả các khóa API",
       "revokeAllFailure": "Lỗi khi thu hồi tất cả các khóa API",
       "revokeAllSuccess": "Đã thu hồi thành công tất cả các khóa API",
+      "revokeConfirm": "Xác nhận thu hồi khóa API",
       "revokeFailure": "Lỗi khi thu hồi khóa API",
       "revokeSuccess": "Đã thu hồi thành công khóa API"
     },
@@ -320,6 +340,7 @@
       "deleteAll": "Xóa hết",
       "deleteAllDevicesError": "Lỗi khi xóa tất cả các thiết bị",
       "deleteAllDevicesSuccess": "Tất cả các thiết bị đã được xóa thành công",
+      "deleteConfirm": "Xác nhận xóa thiết bị",
       "deleteDeviceError": "Lỗi khi xóa thiết bị",
       "deleteDeviceSuccess": "Đã xóa thiết bị thành công",
       "deviceName": "Tên thiết bị",
@@ -411,6 +432,11 @@
   },
   "shows": "Chương Trình",
   "signIn": "Đăng nhập",
+  "snackbar": {
+    "addedToQueue": "Được thêm vào hàng đợi",
+    "playNext": "Mục đã chọn sẽ được phát sau mục hiện tại",
+    "routeValidationError": "routeId được chỉ định trong thông số tuyến đường không chính xác"
+  },
   "songs": "Bài hát",
   "sortByType": "Theo {type}",
   "sortTitle": "Sắp xếp tiêu đề",
@@ -429,6 +455,7 @@
   "themeVideo": "Video Chủ Đề",
   "tooltips": {
     "changeLanguage": "Ngôn ngữ",
+    "switchToAuto": "Theo chủ đề hệ thống",
     "switchToDarkMode": "Chuyển sang chế độ tối",
     "switchToLightMode": "Chuyển sang chế độ sáng"
   },
@@ -484,6 +511,7 @@
       "seconds": "{count} giây | {count} giây"
     }
   },
+  "unknown": "Không rõ",
   "unliked": "Không thích",
   "unplayed": "Chưa Phát",
   "upNext": "Tiếp theo",

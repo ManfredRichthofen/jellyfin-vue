@@ -4,16 +4,27 @@
   "actor": "Herec",
   "actors": "Herci",
   "addNewPerson": "Přidat novou osobu",
+  "administrator": "Správce",
   "airPlayDevices": "Zařízení AirPlay",
   "albums": "Alba",
   "allLanguages": "Všechny jazyky",
   "alphabetically": "Abecedně",
+  "appbar": {
+    "tasks": {
+      "configSync": "Synchronizují se nastavení…",
+      "scanningItem": "Skenování položky '{item}'…"
+    },
+    "tooltips": {
+      "tasks": "Probíhají úlohy"
+    }
+  },
   "architecture": "Architektura",
   "artist": "Interpret",
   "artists": "Interpreti",
   "aspectRatio": "Poměr stran",
   "audio": "Zvuk",
   "audioCodecNotSupported": "Zvukový kodek není podporován",
+  "auto": "Automatický",
   "badRequest": "Špatný požadavek. Zkuste to znovu",
   "books": "Knihy",
   "browserNotSupported": "Přehrávání tohoto souboru není ve vašem prohlížeči podporováno.",
@@ -34,6 +45,10 @@
   "customRating": "Vlastní hodnocení",
   "darkModeToggle": "Přepnout do tmavého režimu",
   "dateAdded": "Datum přidání",
+  "datePlayed": "Datum přehrání",
+  "delete": "Odstranit",
+  "deleteItem": "Odstranit média",
+  "deleteItemDescription": "Smazáním položky odstraníte soubor z knihovny médií i ze souborového systému. Opravdu chcete pokračovat?",
   "details": "Podrobnosti",
   "dialog": {
     "upNext": {
@@ -55,10 +70,16 @@
   "episodeNumber": "Epizoda {episodeNumber}",
   "errors": {
     "anErrorHappened": "Došlo k chybě",
+    "cantPlayItem": "Tuto položku nelze přehrát",
     "messages": {
       "errorCode": "Kód chyby: {errorCode}",
       "videoPlayerError": "Ve video přehrávači došlo k nezvratné chybě."
-    }
+    },
+    "playback": {
+      "mediaError": "Došlo k fatální chybě média, provádí se pokus o zotavení",
+      "networkError": "Došlo k fatální chybě sítě, provádí se pokus o zotavení"
+    },
+    "unauthorized": "Nemáte přístup k zobrazení této stránky"
   },
   "failedRetrievingDisplayPreferences": "Načtení nastavení zobrazení se nezdařilo. Bude použito výchozí nastavení.",
   "failedSettingDisplayPreferences": "Nelze aktualizovat nastavení zobrazení.",
@@ -71,6 +92,8 @@
   "general": "Obecné",
   "genericJellyfinPlaceholderDevice": "Nespecifikované zařízení Jellyfin",
   "genres": "Žánry",
+  "goBack": "Zpět",
+  "goNext": "Vpřed",
   "googleCastPlaceholderDevice": "Zařízení Google Cast",
   "guestStar": "Vedlejší role",
   "headerExternalIds": "Externí ID",
@@ -81,6 +104,9 @@
       "recentlyAdded": "Nově přidáno"
     }
   },
+  "identify": "Identifikovat",
+  "identifyConfirmChanges": "Opravdu chcete změnit '{originalItem}' na '{newIdentifiedItem}'?",
+  "identifyInstructResult": "Kliknutím na jednu z těchto karet aplikujete výsledek",
   "imageType": {
     "art": "Obrázky",
     "backdrop": "Pozadí",
@@ -96,11 +122,16 @@
   },
   "images": "Obrázky",
   "incorrectUsernameOrPassword": "Nesprávné uživatelské jméno nebo heslo",
+  "instantMix": "Rychlý mix",
+  "instantMixQueued": "Okamžitý mix přidán do fronty",
   "item": {
     "artist": {
-      "appearsOn": "Objevuje se",
+      "albums": "Alba",
+      "appearsOn": "Viz také",
       "discography": "Diskografie",
+      "eps": "EP",
       "information": "Informace",
+      "singles": "Singly",
       "videos": "Videa"
     },
     "cast": "Obsazení",
@@ -120,6 +151,11 @@
     "tracklist": {
       "title": "Název"
     }
+  },
+  "itemMenu": {
+    "pushToBottom": "Přesunout na konec",
+    "pushToTop": "Přesunout na začátek",
+    "removeFromQueue": "Odstranit z fronty"
   },
   "itemNotFound": "Položka nebyla nalezena",
   "jellyfinLogo": "Logo Jellyfin",
@@ -142,6 +178,7 @@
     "changeServer": "Změnit server",
     "changeUser": "Přepnout uživatele",
     "connect": "Připojit",
+    "kickedOut": "Oprávnění bylo zrušeno a tato relace již tak není platná. Přihlašte se prosím znovu",
     "login": "Přihlásit",
     "loginAs": "Přihlásit jako {name}",
     "manualLogin": "Ruční přihlášení",
@@ -165,27 +202,6 @@
     "noLogsFound": "Žádný protokol nenalezen"
   },
   "manualLogin": "Ruční přihlášení",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Zvukové kanály:"
-    },
-    "audioCodec": {
-      "name": "Zvukový kodek:"
-    },
-    "bitrate": {
-      "name": "Datový tok:"
-    },
-    "container": {
-      "name": "Kontejner:"
-    },
-    "name": "Média",
-    "subtitleCodec": {
-      "name": "Titulkový kodek:"
-    },
-    "videoCodec": {
-      "name": "VIdeo kodek:"
-    }
-  },
   "menu": "Nabídka",
   "metadata": {
     "source": "Zdroj",
@@ -195,6 +211,7 @@
   },
   "metadataEditor": "Editor metadat",
   "metadataNoResultsMatching": "Žádné výsledky pro \"{search}\". Stisknutím klávesy Enter vytvořte nový.",
+  "metadataRefreshQueued": "Aktualizace metadat zařazena do fronty",
   "more": "Více",
   "moreLikeArtist": "Podobné jako {artist}",
   "moreLikeThis": "Podobné",
@@ -217,6 +234,7 @@
   "people": "Lidé",
   "person": "Osoba",
   "play": "Přehrát",
+  "playCount": "Počet přehrání",
   "playFromBeginning": "Přehrát od začátku",
   "playback": {
     "addToQueue": "Přidat do fronty",
@@ -277,24 +295,34 @@
   "quality": "Kvalita",
   "queue": "Fronta",
   "rating": "Hodnocení",
+  "refresh": "Aktualizovat",
   "refreshLibrary": "Aktualizovat knihovnu",
+  "refreshMetadata": "Aktualizovat metadata",
+  "refreshMetadataHint": "Metadata se aktualizují na základě nastavení a internetových služeb, které jsou povoleny na nástěnce",
   "releaseDate": "Datum vydání",
   "remoteDevices": "Vzdálená zařízení",
+  "replaceAllMetadata": "Přepsat všechna metadata",
+  "replaceExistingImages": "Nahradit existující obrázky",
+  "results": "Výsledky",
   "resumable": "Rozdívané",
   "resume": "Pokračovat",
   "role": "Role",
+  "runtime": "Délka",
   "save": "Uložit",
   "saved": "Uloženo",
+  "scanForNewAndUpdatedFiles": "Vyhledat nové a aktualizované soubory",
   "search": {
     "name": "Hledat",
     "topResults": "Nejlepší výsledky"
   },
+  "searchMissingMetadata": "Vyhledat chybějící metadata",
+  "searchNoResults": "Žádné výsledky",
   "seasonEpisode": "Řada {seasonNumber}, díl {episodeNumber}",
   "seasonEpisodeAbbrev": "Řada {seasonNumber} díl {episodeNumber}",
   "series": "Seriály",
   "server": "Server",
   "serverVersion": "Verze serveru",
-  "serverVersionTooLow": "Verze serveru musí být 10.7.0 nebo novější",
+  "serverVersionTooLow": "Verze serveru musí být {version} nebo novější",
   "settings": {
     "apiKeys": {
       "accessToken": "Přístupový token",
@@ -307,9 +335,11 @@
       "dateCreated": "Datum vytvoření",
       "description": "Přidat či zrušit klíče k API pro externí přístup k serveru",
       "refreshKeysFailure": "Chyba při aktualizaci klíčů k API",
+      "revoke": "Odvolat",
       "revokeAll": "Zrušit všechny klíče k API",
       "revokeAllFailure": "Chyba při rušení všech klíčů k API",
       "revokeAllSuccess": "Všechny klíče k API úspěšně zrušeny",
+      "revokeConfirm": "Potvrdit odvolání klíče k API",
       "revokeFailure": "Chyba při rušení klíče k API",
       "revokeSuccess": "Klíč k API úspěšně zrušen"
     },
@@ -320,6 +350,7 @@
       "deleteAll": "Odstranit vše",
       "deleteAllDevicesError": "Při odstraňování všech zařízení došlo k chybě",
       "deleteAllDevicesSuccess": "Všechna zařízení byla úspěšně odstraněna",
+      "deleteConfirm": "Potvrdit odstranění zařízení",
       "deleteDeviceError": "Při odstranění zařízení došlo k chybě",
       "deleteDeviceSuccess": "Zařízení bylo úspěšně odstraněno",
       "deviceName": "Název zařízení",
@@ -411,6 +442,11 @@
   },
   "shows": "Seriály",
   "signIn": "Přihlásit se",
+  "snackbar": {
+    "addedToQueue": "Přidáno do fronty",
+    "playNext": "Vybraná položka bude přehrána jako další",
+    "routeValidationError": "Zadané routeId v parametrech cesty není správné"
+  },
   "songs": "Skladby",
   "sortByType": "Řazení: {type}",
   "sortTitle": "Název pro řazení",
@@ -429,6 +465,7 @@
   "themeVideo": "Úvodní video",
   "tooltips": {
     "changeLanguage": "Jazyk",
+    "switchToAuto": "Podle vzhledu systému",
     "switchToDarkMode": "Přepnout do tmavého režimu",
     "switchToLightMode": "Přepnout do světlého režimu"
   },
@@ -484,6 +521,10 @@
       "seconds": "{count} sekundu | {count} sekundy"
     }
   },
+  "unknown": "Neznámý",
+  "unknownAlbum": "Neznáme album",
+  "unknownArtist": "Neznámý umělec",
+  "unknownTitle": "Neznámý název",
   "unliked": "Nelíbilo se",
   "unplayed": "Nepřehrané",
   "upNext": "Následující",

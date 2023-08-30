@@ -1,19 +1,30 @@
 {
-  "3DFormat": "3D formaat",
+  "3DFormat": "3D-formaat",
   "NoMediaSourcesAvailable": "Geen mediabronnen beschikbaar",
   "actor": "Acteur",
   "actors": "Acteurs",
   "addNewPerson": "Voeg een nieuw persoon toe",
-  "airPlayDevices": "AirPlay apparaten",
+  "administrator": "Beheerder",
+  "airPlayDevices": "AirPlay-apparaten",
   "albums": "Albums",
   "allLanguages": "Alle talen",
   "alphabetically": "Alfabetisch",
+  "appbar": {
+    "tasks": {
+      "configSync": "Instellingen synchroniseren…",
+      "scanningItem": "'{item}' aan het scannen…"
+    },
+    "tooltips": {
+      "tasks": "Taken uitvoeren"
+    }
+  },
   "architecture": "Architectuur",
   "artist": "Artiest",
   "artists": "Artiesten",
   "aspectRatio": "Beeldverhouding",
   "audio": "Geluid",
   "audioCodecNotSupported": "De audio codec wordt niet ondersteund",
+  "auto": "Automatisch",
   "badRequest": "Onjuist verzoek. Probeer het opnieuw",
   "books": "Boeken",
   "browserNotSupported": "Uw browser kan dit bestandstype niet afspelen.",
@@ -23,7 +34,8 @@
   "byArtist": "Door {artist}",
   "cancel": "Annuleren",
   "castAndCrew": "Acteurs & medewerkers",
-  "collections": "Collecties",
+  "collectionEmpty": "Deze lijst is leeg",
+  "collections": "Verzamelingen",
   "communityRating": "Community-beoordeling",
   "confirm": "Bevestig",
   "connect": "Verbinden",
@@ -33,6 +45,8 @@
   "customRating": "Aangepaste beoordeling",
   "darkModeToggle": "Schakel tussen donkere modus",
   "dateAdded": "Datum toegevoegd",
+  "delete": "Verwijder",
+  "deleteItem": "Verwijder media",
   "details": "Details",
   "dialog": {
     "upNext": {
@@ -43,6 +57,7 @@
   },
   "directing": "Regisseren",
   "director": "Regiseur",
+  "disabled": "Uitgeschakeld",
   "discNumber": "Schijf {discNumber}",
   "dislikes": "Niet leuk",
   "edit": "Bewerken",
@@ -53,10 +68,16 @@
   "episodeNumber": "Aflevering {episodeNumber}",
   "errors": {
     "anErrorHappened": "Er is een fout opgetreden",
+    "cantPlayItem": "Dit item kan niet worden afgespeeld",
     "messages": {
       "errorCode": "Foutcode: {errorCode}",
       "videoPlayerError": "Er is een onherstelbare fout opgetreden in de videospeler."
-    }
+    },
+    "playback": {
+      "mediaError": "Er is een fatale mediafout opgetreden, Er wordt een poging gedaan om dit te herstellen",
+      "networkError": "Er is een fatale netwerk fout opgetreden, er wordt een poging gedaan om dit te herstellen"
+    },
+    "unauthorized": "Je hebt onvoldoende rechten om deze pagina te bekijken"
   },
   "failedRetrievingDisplayPreferences": "De weergavevoorkeuren kunnen niet worden verkregen. De laatst gebruikte instellingen worden gebruikt.",
   "failedSettingDisplayPreferences": "Kan de weergavevoorkeuren niet bijwerken.",
@@ -69,6 +90,8 @@
   "general": "Algemeen",
   "genericJellyfinPlaceholderDevice": "Generiek Jellyfin apparaat",
   "genres": "Genres",
+  "goBack": "Ga terug",
+  "goNext": "Ga verder",
   "googleCastPlaceholderDevice": "Google Cast apparaat",
   "guestStar": "Gast Ster",
   "headerExternalIds": "Externe ID's",
@@ -79,6 +102,9 @@
       "recentlyAdded": "Recent toegevoegd"
     }
   },
+  "identify": "Identificeren",
+  "identifyConfirmChanges": "Weet je zeker dat je '{originalItem}' wilt veranderen naar '{newIdentifiedItem}'?",
+  "identifyInstructResult": "Je kan op één van deze kaarten klikken om het resultaat toe te passen",
   "imageType": {
     "art": "Kunst",
     "backdrop": "Achtergrond",
@@ -96,9 +122,12 @@
   "incorrectUsernameOrPassword": "Onjuiste gebruikersnaam en/of wachtwoord",
   "item": {
     "artist": {
+      "albums": "Albums",
       "appearsOn": "Uiterlijk",
       "discography": "Discografie",
+      "eps": "EP's",
       "information": "Informatie",
+      "singles": "Singles",
       "videos": "Videos"
     },
     "cast": "Cast",
@@ -118,6 +147,11 @@
     "tracklist": {
       "title": "Titel"
     }
+  },
+  "itemMenu": {
+    "pushToBottom": "Ga naar het einde",
+    "pushToTop": "Ga naar het begin",
+    "removeFromQueue": "Verwijder uit wachtrij"
   },
   "itemNotFound": "Item niet gevonden",
   "jellyfinLogo": "Jellyfin logo",
@@ -140,6 +174,7 @@
     "changeServer": "Verander de server",
     "changeUser": "Verander gebruiker",
     "connect": "Verbind",
+    "kickedOut": "Autorisatie is ingetrokken en deze sessie is niet langer geldig. Gelieve opnieuw in te loggen",
     "login": "Log in",
     "loginAs": "Log in als {name}",
     "manualLogin": "Handmatig inloggen",
@@ -163,27 +198,6 @@
     "noLogsFound": "Geen logboeken gevonden"
   },
   "manualLogin": "Manuele login",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Audio kanalen:"
-    },
-    "audioCodec": {
-      "name": "Audio codec:"
-    },
-    "bitrate": {
-      "name": "Bitrate:"
-    },
-    "container": {
-      "name": "Container:"
-    },
-    "name": "Media",
-    "subtitleCodec": {
-      "name": "Ondertiteling codec:"
-    },
-    "videoCodec": {
-      "name": "Video codec:"
-    }
-  },
   "menu": "Menu",
   "metadata": {
     "source": "Bron",
@@ -204,7 +218,7 @@
   "noInformationAvailable": "Geen informatie beschikbaar",
   "noNetworkConnection": "Geen netwerk verbinding",
   "noResultsFound": "Er is hier niets",
-  "numberTracks": "{number} tracks",
+  "numberTracks": "{number} nummers",
   "operatingSystem": "Besturingssysteem",
   "originalAspectRatio": "Originele aspect ratio",
   "originalTitle": "Originele titel",
@@ -244,7 +258,7 @@
     "streamType": {
       "dash": "DASH",
       "hls": "HLS",
-      "name": "Stream type:",
+      "name": "Streamtype:",
       "unknown": "Onbekend",
       "video": "Video"
     }
@@ -409,6 +423,10 @@
   },
   "shows": "Series",
   "signIn": "Inloggen",
+  "snackbar": {
+    "addedToQueue": "Toegevoegd aan wachtrij",
+    "playNext": "Het geselecteerde item wordt als volgende afgespeeld"
+  },
   "songs": "Liedjes",
   "sortByType": "Op {type}",
   "sortTitle": "Sorteer de titel",
@@ -416,6 +434,7 @@
   "speed": "Snelheid",
   "startNow": "Start nu",
   "status": "Status",
+  "stretch": "Uitrekken",
   "studios": "Studio's",
   "subtitles": "Ondertiteling",
   "syncPlayGroups": "SyncPlay groepen",
@@ -433,7 +452,7 @@
   "transcodingInfo": {
     "name": "Transcodering",
     "transcodingFramerate": {
-      "name": "Framerate:",
+      "name": "Beeldsnelheid:",
       "value": "{value} fps"
     },
     "transcodingProgress": "Vooruitgang:",
@@ -493,7 +512,7 @@
   },
   "version": "Versie",
   "video": "Video",
-  "videoTypes": "Video Types",
+  "videoTypes": "Videotypes",
   "viewDetails": "Bekijk details",
   "vueClientVersion": "Client versie",
   "wizard": {

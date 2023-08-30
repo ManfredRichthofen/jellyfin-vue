@@ -4,10 +4,19 @@
   "actor": "Aktör",
   "actors": "Aktörler",
   "addNewPerson": "Jaña tūlğany üsteu",
+  "administrator": "Äkımşı",
   "airPlayDevices": "AirPlay qūrylğylary",
   "albums": "Älbomdar",
   "allLanguages": "Barlyq tılder",
   "alphabetically": "Älıpbi boiynşa",
+  "appbar": {
+    "tasks": {
+      "configSync": "Parametrler ündestırilude…"
+    },
+    "tooltips": {
+      "tasks": "Oryndalyp jatqan tapsyrmalar"
+    }
+  },
   "architecture": "Arhitekturasy",
   "artist": "Oryndauşy",
   "artists": "Oryndauşylar",
@@ -121,6 +130,11 @@
       "title": "Atauy"
     }
   },
+  "itemMenu": {
+    "pushToBottom": "Soñyna jyljytu",
+    "pushToTop": "Basyna jyljytu",
+    "removeFromQueue": "Kezekten alastau"
+  },
   "itemNotFound": "Tarmaq tabylmady",
   "jellyfinLogo": "Jellyfin logotipı",
   "latestLibrary": "Eñ keiıngı {libraryName}",
@@ -142,6 +156,7 @@
     "changeServer": "Serverdı auystyru",
     "changeUser": "Paidalanuşyny auystyru",
     "connect": "Qosylu",
+    "kickedOut": "Rastau qaytarylyp alyndy jäne būl seans endı jaramsyz. Jüiege qaita kırıñız",
     "login": "Kıru",
     "loginAs": "{name} atynan kıru",
     "manualLogin": "Qolmen kıru",
@@ -165,27 +180,6 @@
     "noLogsFound": "Jūrnaldar tabylmady"
   },
   "manualLogin": "Qolmen kıru",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Dybys arnalary:"
-    },
-    "audioCodec": {
-      "name": "Dybys kodegı:"
-    },
-    "bitrate": {
-      "name": "Qarqyny:"
-    },
-    "container": {
-      "name": "Konteinerı:"
-    },
-    "name": "Tasyğyşderekter",
-    "subtitleCodec": {
-      "name": "Subtitr kodegı:"
-    },
-    "videoCodec": {
-      "name": "Beine kodegı:"
-    }
-  },
   "menu": "Mäzır",
   "metadata": {
     "source": "Qainar közı",
@@ -411,6 +405,10 @@
   },
   "shows": "Körsetımder",
   "signIn": "Kıru",
+  "snackbar": {
+    "addedToQueue": "Kezekke üstelındı",
+    "playNext": "Tañdalğan tarmaq ağymdağydan keiın oınatylady"
+  },
   "songs": "Äuender",
   "sortByType": "{type} boiynşa",
   "sortTitle": "Sūryptau atauy",

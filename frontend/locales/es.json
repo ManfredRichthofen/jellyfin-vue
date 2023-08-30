@@ -4,16 +4,26 @@
   "actor": "Actor",
   "actors": "Actores",
   "addNewPerson": "Añadir una persona",
+  "administrator": "Administrador",
   "airPlayDevices": "Dispositivos AirPlay",
   "albums": "Álbumes",
   "allLanguages": "Todos los idiomas",
   "alphabetically": "Alfabéticamente",
+  "appbar": {
+    "tasks": {
+      "configSync": "Sincronizando ajustes…"
+    },
+    "tooltips": {
+      "tasks": "Ejecutando tareas"
+    }
+  },
   "architecture": "Arquitectura",
   "artist": "Artista",
   "artists": "Artistas",
   "aspectRatio": "Relación de aspecto",
   "audio": "Audio",
   "audioCodecNotSupported": "El formato de audio no está soportado",
+  "auto": "Automático",
   "badRequest": "Solicitud incorrecta. Intente de nuevo",
   "books": "Libros",
   "browserNotSupported": "Tu navegador no es compatible con este archivo.",
@@ -23,6 +33,7 @@
   "byArtist": "Por {artist}",
   "cancel": "Cancelar",
   "castAndCrew": "Reparto y equipo",
+  "collectionEmpty": "Esta colección está vacía",
   "collections": "Colecciones",
   "communityRating": "Puntuación de la comunidad",
   "confirm": "Confirmar",
@@ -54,10 +65,16 @@
   "episodeNumber": "Episodio {episodeNumber}",
   "errors": {
     "anErrorHappened": "Ha ocurrido un error",
+    "cantPlayItem": "Este elemento no se puede reproducir",
     "messages": {
       "errorCode": "Código de error: {errorCode}",
       "videoPlayerError": "El reproductor de vídeo encontró un error irrecuperable."
-    }
+    },
+    "playback": {
+      "mediaError": "Error fatal en los medios encontrado, intentando recuperar",
+      "networkError": "Error fatal de red encontrado, intentando recuperar"
+    },
+    "unauthorized": "No estas autorizado para acceder a esta página"
   },
   "failedRetrievingDisplayPreferences": "Error al cargar las preferencias. Utilizando los valores por defecto.",
   "failedSettingDisplayPreferences": "Error al actualizar las preferencias.",
@@ -97,9 +114,12 @@
   "incorrectUsernameOrPassword": "Nombre de usuario o contraseña incorrectos",
   "item": {
     "artist": {
+      "albums": "Álbumes",
       "appearsOn": "Apariencias",
       "discography": "Discografía",
+      "eps": "LPs",
       "information": "Información",
+      "singles": "Sencillos",
       "videos": "Vídeos"
     },
     "cast": "Reparto",
@@ -119,6 +139,11 @@
     "tracklist": {
       "title": "Título"
     }
+  },
+  "itemMenu": {
+    "pushToBottom": "Mover al final",
+    "pushToTop": "Mover al principio",
+    "removeFromQueue": "Eliminar de la cola"
   },
   "itemNotFound": "Elemento no encontrado",
   "jellyfinLogo": "Logo de Jellyfin",
@@ -141,6 +166,7 @@
     "changeServer": "Cambiar de servidor",
     "changeUser": "Cambiar de usuario",
     "connect": "Conectar",
+    "kickedOut": "Se ha revocado la autorización y esta sesión ya no es válida. Inicie sesión de nuevo",
     "login": "Iniciar sesión",
     "loginAs": "Iniciar sesión como {name}",
     "manualLogin": "Inicio de sesión manual",
@@ -164,27 +190,6 @@
     "noLogsFound": "No hay registros"
   },
   "manualLogin": "Inicio de sesión manual",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Canales de audio:"
-    },
-    "audioCodec": {
-      "name": "Códec de audio:"
-    },
-    "bitrate": {
-      "name": "Bitrate:"
-    },
-    "container": {
-      "name": "Contenedor:"
-    },
-    "name": "Medio",
-    "subtitleCodec": {
-      "name": "Códec de subtítulos:"
-    },
-    "videoCodec": {
-      "name": "Códec de vídeo:"
-    }
-  },
   "menu": "Menú",
   "metadata": {
     "source": "Fuente",
@@ -285,7 +290,8 @@
   "save": "Guardar",
   "saved": "Guardado",
   "search": {
-    "name": "Buscar"
+    "name": "Buscar",
+    "topResults": "Mejores resultados"
   },
   "seasonEpisode": "Temporada {seasonNumber}, Episodio {episodeNumber}",
   "seasonEpisodeAbbrev": "T{seasonNumber} E{episodeNumber}",
@@ -296,20 +302,22 @@
   "settings": {
     "apiKeys": {
       "accessToken": "Token de acceso",
-      "addApiKey": "Crear una clave de API",
-      "addNewKey": "Crear una clave de API",
+      "addApiKey": "Agregar una clave API",
+      "addNewKey": "Crear una clave API",
       "apiKeys": "Claves API",
       "appName": "Nombre de la aplicación",
-      "createKeyFailure": "Error al crear la clave de API",
-      "createKeySuccess": "La clave de API se ha creado correctamente",
+      "createKeyFailure": "Error al crear la clave API",
+      "createKeySuccess": "La clave API se ha creado correctamente",
       "dateCreated": "Fecha de creación",
       "description": "Añade y borra claves API para acceso externo a tu servidor",
-      "refreshKeysFailure": "Error al actualizar las claves de API",
-      "revokeAll": "Anular todas las claves de API",
-      "revokeAllFailure": "Error al anular todas las claves de API",
-      "revokeAllSuccess": "Todas las claves de API han sido anuladas correctamente",
-      "revokeFailure": "Error al anular la clave de API",
-      "revokeSuccess": "Clave de API anulada correctamente"
+      "refreshKeysFailure": "Error al actualizar claves API",
+      "revoke": "Revocar",
+      "revokeAll": "Revocar todas las claves API",
+      "revokeAllFailure": "Error al revocar todas las claves API",
+      "revokeAllSuccess": "Revocó con éxito todas las claves API",
+      "revokeConfirm": "Confirmar la revocación de la clave API",
+      "revokeFailure": "Error al revocar la clave API",
+      "revokeSuccess": "Clave API revocada con éxito"
     },
     "devices": {
       "appName": "Nombre de la aplicación",
@@ -318,6 +326,7 @@
       "deleteAll": "Eliminar todos",
       "deleteAllDevicesError": "Error al eliminar todos los dispositivos",
       "deleteAllDevicesSuccess": "Todos los dispositivos se han eliminado correctamente",
+      "deleteConfirm": "Confirmar la eliminación del dispositivo",
       "deleteDeviceError": "Error al eliminar el dispositivo",
       "deleteDeviceSuccess": "Dispositivo eliminado correctamente",
       "deviceName": "Nombre del dispositivo",
@@ -409,6 +418,11 @@
   },
   "shows": "Series",
   "signIn": "Iniciar sesión",
+  "snackbar": {
+    "addedToQueue": "Añadido a la cola de reproducción",
+    "playNext": "El elemento seleccionado se reproducirá a continuación",
+    "routeValidationError": "El routeId especificado en los parámetros de ruta no es correcto"
+  },
   "songs": "Canciones",
   "sortByType": "Por {type}",
   "sortTitle": "Ordenar título",
@@ -427,6 +441,7 @@
   "themeVideo": "Vídeo temático",
   "tooltips": {
     "changeLanguage": "Idioma",
+    "switchToAuto": "Seguir el tema del sistema",
     "switchToDarkMode": "Cambiar al tema oscuro",
     "switchToLightMode": "Cambiar al tema claro"
   },
@@ -439,7 +454,7 @@
     },
     "transcodingProgress": "Progreso:",
     "transcodingReason": {
-      "name": "Razones: | Razones:",
+      "name": "Razón: | Razones:",
       "reasons": {
         "anamorphicVideoNotSupported": "El vídeo anamórfico no está soportado",
         "audioBitDepthNotSupported": "La densidad de bits del audio no está soportada",
@@ -457,6 +472,7 @@
         "videoBitDepthNotSupported": "La densidad de bits del vídeo no está soportada",
         "videoCodecNotSupported": "El códec de vídeo no está soportado",
         "videoFramerateNotSupported": "Los fotogramas por segundo del vídeo no están soportados",
+        "videoLevelNotSupported": "El nivel del códec de vídeo no está soportado",
         "videoProfileNotSupported": "El perfil del códec de vídeo no está soportado",
         "videoResolutionNotSupported": "La resolución del vídeo no está soportada"
       }
@@ -481,6 +497,7 @@
       "seconds": "{count} segundo | {count} segundos"
     }
   },
+  "unknown": "Desconocido",
   "unliked": "No me gusta",
   "unplayed": "No reproducido",
   "upNext": "A continuación",

@@ -8,6 +8,14 @@
   "albums": "Albumoj",
   "allLanguages": "Ĉiuj lingvoj",
   "alphabetically": "Alfabete",
+  "appbar": {
+    "tasks": {
+      "configSync": "Sinkronigado de parametroj…"
+    },
+    "tooltips": {
+      "tasks": "Kurantaj taskoj"
+    }
+  },
   "architecture": "Arkitekturo",
   "artist": "Artisto",
   "artists": "Artistoj",
@@ -121,6 +129,11 @@
       "title": "Titolo"
     }
   },
+  "itemMenu": {
+    "pushToBottom": "Movi al la fino",
+    "pushToTop": "Movi al la komenco",
+    "removeFromQueue": "Forigi de vico"
+  },
   "itemNotFound": "Aĵo ne trovita",
   "jellyfinLogo": "Logotipo de Jellyfin",
   "latestLibrary": "Plej nova {libraryName}",
@@ -142,6 +155,7 @@
     "changeServer": "Ŝanĝi servilon",
     "changeUser": "Ŝanĝi uzanton",
     "connect": "Konektu",
+    "kickedOut": "Rajtigo estis nuligita kaj ĉi tiu sesio ne plu validas. Ensaluti denove",
     "login": "Ensaluto",
     "loginAs": "Ensaluti kiel {name}",
     "manualLogin": "Mana ensaluto",
@@ -165,27 +179,6 @@
     "noLogsFound": "Neniuj ĵurnaloj trovitaj"
   },
   "manualLogin": "Mana ensaluto",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Aŭdiokanaloj:"
-    },
-    "audioCodec": {
-      "name": "Aŭdiokodeko:"
-    },
-    "bitrate": {
-      "name": "Bitrapido:"
-    },
-    "container": {
-      "name": "Ujo:"
-    },
-    "name": "Plurmedio",
-    "subtitleCodec": {
-      "name": "Subteksta kodeko:"
-    },
-    "videoCodec": {
-      "name": "Videa kodeko:"
-    }
-  },
   "menu": "Menuo",
   "metadata": {
     "source": "Fonto",
@@ -410,7 +403,11 @@
     }
   },
   "shows": "Serioj",
-  "signIn": "Ensaluti",
+  "signIn": "Ensaluto",
+  "snackbar": {
+    "addedToQueue": "Aldoni al vico",
+    "playNext": "La elektita aĵo estos ludata post la nuna"
+  },
   "songs": "Kantoj",
   "sortByType": "De {type}",
   "sortTitle": "Ordiga titolo",

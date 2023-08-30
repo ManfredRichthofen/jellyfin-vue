@@ -1,27 +1,96 @@
 {
+  "timezone": "Europe/Madrid",
   "packageRules": [
     {
-      "matchDepTypes": ["devDependencies", "build-dependencies"],
-      "groupName": "development dependencies",
-      "groupSlug": "dev-deps"
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "groupName": "npm development dependencies",
+      "groupSlug": "npm-dev"
     },
     {
-      "matchDepTypes": ["dependencies"],
-      "groupName": "dependencies",
-      "groupSlug": "deps"
+      "matchManagers": [
+        "npm"
+      ],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "groupName": "npm dependencies",
+      "groupSlug": "npm"
     },
     {
-      "matchDepTypes": ["action"],
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
       "groupName": "CI dependencies",
       "groupSlug": "ci-deps"
+    },
+    {
+      "matchManagers": [
+        "cargo"
+      ],
+      "matchUpdateTypes": [
+        "patch",
+        "minor",
+        "major"
+      ],
+      "groupName": "cargo dependencies",
+      "groupSlug": "cargo"
+    },
+    {
+      "matchUpdateTypes": [
+        "lockFileMaintenance"
+      ],
+      "groupSlug": "lockfiles"
     }
   ],
   "dependencyDashboard": false,
-  "ignoreDeps": ["npm", "swiper", "node", "hls.js"],
-  "enabledManagers": ["npm", "github-actions", "cargo"],
-  "labels": ["dependencies"],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "transitiveRemediation": true,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "groupName": "vulnerable dependencies",
+    "groupSlug": "vulnerabilities",
+    "labels": [
+      "security",
+      "dependencies"
+    ]
+  },
+  "ignoreDeps": [
+    "npm",
+    "node"
+  ],
+  "enabledManagers": [
+    "npm",
+    "github-actions",
+    "cargo"
+  ],
+  "labels": [
+    "dependencies"
+  ],
   "rebaseWhen": "behind-base-branch",
   "rangeStrategy": "pin",
-  "assignees": ["ferferga", "ThibaultNocchi"],
-  "reviewers": ["ferferga", "ThibaultNocchi"]
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": [
+      "every 2 months on the first day of the month"
+    ]
+  },
+  "assignees": [
+    "ferferga",
+    "ThibaultNocchi"
+  ],
+  "reviewers": [
+    "ferferga",
+    "ThibaultNocchi"
+  ]
 }

@@ -4,16 +4,27 @@
   "actor": "Acteur",
   "actors": "Acteurs",
   "addNewPerson": "Ajouter une nouvelle personne",
+  "administrator": "Administrateur",
   "airPlayDevices": "Appareils AirPlay",
   "albums": "Albums",
   "allLanguages": "Toutes les langues",
   "alphabetically": "Alphabétiquement",
+  "appbar": {
+    "tasks": {
+      "configSync": "Synchronisation des paramètres…",
+      "scanningItem": "Scan'{item}'…"
+    },
+    "tooltips": {
+      "tasks": "Tâches en cours"
+    }
+  },
   "architecture": "Architecture",
   "artist": "Artiste",
   "artists": "Artistes",
   "aspectRatio": "Format d'image",
   "audio": "Audio",
   "audioCodecNotSupported": "Le codec audio n'est pas supporté",
+  "auto": "Automatique",
   "badRequest": "Mauvaise requête. Réessayez",
   "books": "Livres",
   "browserNotSupported": "Votre navigateur n'est pas pris en charge pour la lecture de ce fichier.",
@@ -34,6 +45,9 @@
   "customRating": "Note personnalisée",
   "darkModeToggle": "Activer le mode sombre",
   "dateAdded": "Date d'ajout",
+  "delete": "Effacer",
+  "deleteItem": "Suppression du média",
+  "deleteItemDescription": "Supprimer cet élément l'effacera à la fois du système de fichiers et de votre médiathèque. Voulez-vous vraiment continuer?",
   "details": "Détails",
   "dialog": {
     "upNext": {
@@ -55,10 +69,16 @@
   "episodeNumber": "Épisode {episodeNumber}",
   "errors": {
     "anErrorHappened": "Une erreur est survenue",
+    "cantPlayItem": "Cet élément ne peut pas être lu",
     "messages": {
       "errorCode": "Code erreur : {errorCode}",
       "videoPlayerError": "Le lecteur vidéo a rencontré une erreur irrécupérable."
-    }
+    },
+    "playback": {
+      "mediaError": "Une erreur fatale de média est survenue, tentative de récupération",
+      "networkError": "Une erreur fatale réseau est survenue, tentative de récupération"
+    },
+    "unauthorized": "Vous n'êtes pas autorisé à accéder à cette page"
   },
   "failedRetrievingDisplayPreferences": "Impossible de lire les préférences d'affichage. Les valeurs par défaut seront utilisées.",
   "failedSettingDisplayPreferences": "Impossible de modifier les préférences d'affichage.",
@@ -71,6 +91,8 @@
   "general": "Général",
   "genericJellyfinPlaceholderDevice": "Appareil Jellyfin générique",
   "genres": "Genres",
+  "goBack": "Retourner",
+  "goNext": "Suivant",
   "googleCastPlaceholderDevice": "Appareil Google Cast",
   "guestStar": "Vedette invitée",
   "headerExternalIds": "Identifiants externes",
@@ -81,6 +103,9 @@
       "recentlyAdded": "Récemment ajouté"
     }
   },
+  "identify": "Identifier",
+  "identifyConfirmChanges": "Êtes-vous sûr que vous voulez remplacer '{originalItem}' par '{newIdentifiedItem}' ?",
+  "identifyInstructResult": "Vous pouvez cliquer sur l'une de ces cartes pour appliquer le résultat",
   "imageType": {
     "art": "Illustration",
     "backdrop": "Arrière-plan",
@@ -96,11 +121,16 @@
   },
   "images": "Images",
   "incorrectUsernameOrPassword": "Nom d'utilisateur ou mot de passe incorrect",
+  "instantMix": "Mix instantané",
+  "instantMixQueued": "Ajouter le mix instantané à la file de lecture",
   "item": {
     "artist": {
+      "albums": "Albums",
       "appearsOn": "Apparitions",
       "discography": "Discographie",
+      "eps": "EP",
       "information": "Informations",
+      "singles": "Singles",
       "videos": "Vidéos"
     },
     "cast": "Distribution",
@@ -120,6 +150,11 @@
     "tracklist": {
       "title": "Titre"
     }
+  },
+  "itemMenu": {
+    "pushToBottom": "Aller à la fin",
+    "pushToTop": "Aller au début",
+    "removeFromQueue": "Enlever de la file d'attente"
   },
   "itemNotFound": "Élément introuvable",
   "jellyfinLogo": "Logo Jellyfin",
@@ -142,6 +177,7 @@
     "changeServer": "Changer de serveur",
     "changeUser": "Changer d'utilisateur",
     "connect": "Se connecter",
+    "kickedOut": "L’autorisation a été révoquée et cette session n’est plus valide. Veuillez vous reconnecter",
     "login": "Connexion",
     "loginAs": "Se connecter avec {name}",
     "manualLogin": "Connexion manuelle",
@@ -165,27 +201,6 @@
     "noLogsFound": "Aucun journal trouvé"
   },
   "manualLogin": "Connexion manuelle",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Pistes Audio :"
-    },
-    "audioCodec": {
-      "name": "Codec audio :"
-    },
-    "bitrate": {
-      "name": "Débit :"
-    },
-    "container": {
-      "name": "Container :"
-    },
-    "name": "Média",
-    "subtitleCodec": {
-      "name": "Codec pour les sous-titres :"
-    },
-    "videoCodec": {
-      "name": "Codec vidéo :"
-    }
-  },
   "menu": "Menu",
   "metadata": {
     "source": "Source",
@@ -258,10 +273,10 @@
       "name": "Images corrompues :"
     },
     "decodedFrames": {
-      "name": "Images décodées :"
+      "name": "Images décodées:"
     },
     "droppedFrames": {
-      "name": "Images perdues :"
+      "name": "Images perdues:"
     },
     "name": "Lecteur",
     "playbackResolution": {
@@ -277,18 +292,27 @@
   "quality": "Qualité",
   "queue": "File d'attente",
   "rating": "Critique",
+  "refresh": "Rafraîchir",
   "refreshLibrary": "Actualiser la médiathèque",
+  "refreshMetadata": "Rafraîchir les métadonnées",
+  "refreshMetadataHint": "Les métadonnées sont actualisées en fonction des paramètres et des services Internet activés dans le tableau de bord",
   "releaseDate": "Date de sortie",
   "remoteDevices": "Appareils à distance",
+  "replaceAllMetadata": "Remplacer toutes les métadonnées",
+  "replaceExistingImages": "Remplacer les images existantes",
+  "results": "Résultats",
   "resumable": "Reprise possible",
   "resume": "Reprendre",
   "role": "Rôle",
   "save": "Sauvegarder",
   "saved": "Enregistré",
+  "scanForNewAndUpdatedFiles": "Actualiser pour détecter les nouveaux fichiers et les modifications",
   "search": {
     "name": "Recherche",
     "topResults": "Meilleurs résultats"
   },
+  "searchMissingMetadata": "Rechercher les métadonnées manquantes",
+  "searchNoResults": "Aucun résultat trouvé",
   "seasonEpisode": "Saison {seasonNumber}, Épisode {episodeNumber}",
   "seasonEpisodeAbbrev": "S{seasonNumber} E{episodeNumber}",
   "series": "Séries",
@@ -307,9 +331,11 @@
       "dateCreated": "Date de création",
       "description": "Ajouter et révoquer des clés API pour un accès externe à votre serveur",
       "refreshKeysFailure": "Erreur lors de l'actualisation des clés API",
+      "revoke": "Révoquer",
       "revokeAll": "Révoquer toutes les clés API",
       "revokeAllFailure": "Erreur lors de la révocation de toutes les clés API",
       "revokeAllSuccess": "Révocation réussie de toutes les clés API",
+      "revokeConfirm": "Confirmer la révocation de la clé d'API",
       "revokeFailure": "Erreur lors de la révocation de la clé API",
       "revokeSuccess": "Clé API révoquée avec succès"
     },
@@ -320,6 +346,7 @@
       "deleteAll": "Tout supprimer",
       "deleteAllDevicesError": "Erreur lors de la suppression de tous les appareils",
       "deleteAllDevicesSuccess": "Tous les appareils ont été supprimés avec succès",
+      "deleteConfirm": "Confirmer la suppression de l'appareil",
       "deleteDeviceError": "Erreur lors de suppression de l'appareil",
       "deleteDeviceSuccess": "Appareil supprimé avec succès",
       "deviceName": "Nom de l'appareil",
@@ -409,8 +436,13 @@
       "name": "Utilisateurs"
     }
   },
-  "shows": "Émissions",
+  "shows": "Séries",
   "signIn": "Se connecter",
+  "snackbar": {
+    "addedToQueue": "Ajouté en file d'attente",
+    "playNext": "L'élément sélectionné sera lancé après l'élément actuel",
+    "routeValidationError": "Le routeId fourni dans les paramètres de route est incorrect"
+  },
   "songs": "Musiques",
   "sortByType": "Par {type}",
   "sortTitle": "Trier par titre",
@@ -429,6 +461,7 @@
   "themeVideo": "Vidéo du générique",
   "tooltips": {
     "changeLanguage": "Langue",
+    "switchToAuto": "Respecter le thème système",
     "switchToDarkMode": "Basculer en mode sombre",
     "switchToLightMode": "Basculer en mode clair"
   },
@@ -439,9 +472,9 @@
       "name": "Taux de rafraîchissement :",
       "value": "fps {value}"
     },
-    "transcodingProgress": "Progression :",
+    "transcodingProgress": "Progression:",
     "transcodingReason": {
-      "name": "Raison : | Raisons :",
+      "name": "Raison: | Raisons:",
       "reasons": {
         "anamorphicVideoNotSupported": "Les vidéos anamorphiques ne sont pas supportées",
         "audioBitDepthNotSupported": "La résolution audio n'est pas supportée",
@@ -484,10 +517,11 @@
       "seconds": "{count} secondes | {count} secondes"
     }
   },
+  "unknown": "Inconnu",
   "unliked": "Je n'aime pas",
   "unplayed": "Non lu",
   "upNext": "À suivre",
-  "upNextName": "À suivre : {upNextItemName}",
+  "upNextName": "À suivre: {upNextItemName}",
   "username": "Nom d'utilisateur",
   "validation": {
     "bothPasswordsSame": "Les deux mots de passe doivent être identiques",

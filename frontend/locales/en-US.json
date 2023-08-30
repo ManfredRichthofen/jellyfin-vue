@@ -1,19 +1,32 @@
 {
   "3DFormat": "3D format",
   "NoMediaSourcesAvailable": "No media sources available",
+  "NoMediaStreamsAvailable": "No media streams available for the selected source",
+  "accept": "Accept",
   "actor": "Actor",
   "actors": "Actors",
   "addNewPerson": "Add a new person",
+  "administrator": "Administrator",
   "airPlayDevices": "AirPlay devices",
   "albums": "Albums",
   "allLanguages": "All languages",
   "alphabetically": "Alphabetically",
+  "appbar": {
+    "tasks": {
+      "configSync": "Syncing settings…",
+      "scanningItem": "Scanning '{item}'…"
+    },
+    "tooltips": {
+      "tasks": "Running tasks"
+    }
+  },
   "architecture": "Architecture",
   "artist": "Artist",
   "artists": "Artists",
   "aspectRatio": "Aspect ratio",
   "audio": "Audio",
   "audioCodecNotSupported": "The audio codec is not supported",
+  "auto": "Automatic",
   "badRequest": "Bad request. Try again",
   "books": "Books",
   "browserNotSupported": "Your browser is not supported for playing this file.",
@@ -23,17 +36,28 @@
   "byArtist": "By {artist}",
   "cancel": "Cancel",
   "castAndCrew": "Cast & crew",
-  "collections": "Collections",
+  "clipboardFail": "Failed to copy to clipboard",
+  "clipboardSuccess": "Copied to clipboard",
+  "clipboardUnsupported": "Copying to clipboard is unsupported in this browser",
+  "close": "Close",
   "collectionEmpty": "This collection is empty",
+  "collections": "Collections",
   "communityRating": "Community rating",
   "confirm": "Confirm",
   "connect": "Connect",
+  "contentType": "Content type",
   "continueListening": "Continue listening",
   "continueWatching": "Continue watching",
+  "copyPrompt": "Copy the following text into the clipboard?",
+  "copyStreamURL": "Copy Stream URL",
   "criticRating": "Critic rating",
   "customRating": "Custom rating",
   "darkModeToggle": "Toggle dark mode",
   "dateAdded": "Date added",
+  "datePlayed": "Date played",
+  "delete": "Delete",
+  "deleteItem": "Delete media",
+  "deleteItemDescription": "Deleting this item will delete it from both the file system and your media library. Are you sure you wish to continue?",
   "details": "Details",
   "dialog": {
     "upNext": {
@@ -47,6 +71,7 @@
   "disabled": "Disabled",
   "discNumber": "Disc {discNumber}",
   "dislikes": "Dislikes",
+  "downloadItem": "Download | Download all",
   "edit": "Edit",
   "editMetadata": "Edit metadata",
   "editPerson": "Edit person",
@@ -55,10 +80,16 @@
   "episodeNumber": "Episode {episodeNumber}",
   "errors": {
     "anErrorHappened": "An error happened",
+    "cantPlayItem": "This item can't be played",
     "messages": {
       "errorCode": "Error code: {errorCode}",
       "videoPlayerError": "The video player encountered an unrecoverable error."
-    }
+    },
+    "playback": {
+      "mediaError": "Fatal media error encountered, trying to recover",
+      "networkError": "Fatal network error encountered, trying to recover"
+    },
+    "unauthorized": "You're not authorized to access this page"
   },
   "failedRetrievingDisplayPreferences": "Unable to get display preferences. Using last known settings.",
   "failedSettingDisplayPreferences": "Unable to update display preferences.",
@@ -71,6 +102,8 @@
   "general": "General",
   "genericJellyfinPlaceholderDevice": "Generic Jellyfin device",
   "genres": "Genres",
+  "goBack": "Go back",
+  "goNext": "Go next",
   "googleCastPlaceholderDevice": "Google Cast device",
   "guestStar": "Guest Star",
   "headerExternalIds": "External IDs",
@@ -81,6 +114,9 @@
       "recentlyAdded": "Recently added"
     }
   },
+  "identify": "Identify",
+  "identifyConfirmChanges": "Are you sure do you want to change '{originalItem}' with '{newIdentifiedItem}'?",
+  "identifyInstructResult": "You can click on one of these cards to apply the result",
   "imageType": {
     "art": "Art",
     "backdrop": "Backdrop",
@@ -96,11 +132,16 @@
   },
   "images": "Images",
   "incorrectUsernameOrPassword": "Incorrect username or password",
+  "instantMix": "Instant mix",
+  "instantMixQueued": "Instant mix added to queue",
   "item": {
     "artist": {
+      "albums": "Albums",
       "appearsOn": "Appearances",
       "discography": "Discography",
+      "eps": "EPs",
       "information": "Information",
+      "singles": "Singles",
       "videos": "Videos"
     },
     "cast": "Cast",
@@ -120,6 +161,11 @@
     "tracklist": {
       "title": "Title"
     }
+  },
+  "itemMenu": {
+    "pushToBottom": "Move to the end",
+    "pushToTop": "Move to the beginning",
+    "removeFromQueue": "Remove from queue"
   },
   "itemNotFound": "Item not found",
   "jellyfinLogo": "Jellyfin logo",
@@ -142,6 +188,7 @@
     "changeServer": "Change server",
     "changeUser": "Change user",
     "connect": "Connect",
+    "kickedOut": "Authorization has been revoked and this session is no longer valid. Please log in again",
     "login": "Login",
     "loginAs": "Login as {name}",
     "manualLogin": "Manual login",
@@ -165,27 +212,55 @@
     "noLogsFound": "No logs found"
   },
   "manualLogin": "Manual login",
-  "mediaInfo": {
-    "audioChannels": {
-      "name": "Audio channels:"
-    },
-    "audioCodec": {
-      "name": "Audio codec:"
-    },
-    "bitrate": {
-      "name": "Bitrate:"
-    },
-    "container": {
-      "name": "Container:"
-    },
-    "name": "Media",
-    "subtitleCodec": {
-      "name": "Subtitle codec:"
-    },
-    "videoCodec": {
-      "name": "Video codec:"
-    }
-  },
+  "mediaInfo": "Media Info",
+  "mediaInfoAspectRatio": "Aspect ratio",
+  "mediaInfoAudioChannelLayout": "Layout",
+  "mediaInfoAudioChannels": "Channels",
+  "mediaInfoAudioSampleRate": "Sample rate",
+  "mediaInfoFileContainer": "Container",
+  "mediaInfoFileFormats": "Format",
+  "mediaInfoFilePath": "Path",
+  "mediaInfoFileSize": "Size",
+  "mediaInfoFileTitle": "Title",
+  "mediaInfoGenericBitrate": "Bitrate",
+  "mediaInfoGenericCodec": "Codec",
+  "mediaInfoGenericCodecTag": "Codec tag",
+  "mediaInfoGenericIsDefault": "Default",
+  "mediaInfoGenericIsExternal": "External",
+  "mediaInfoGenericIsForced": "Forced",
+  "mediaInfoGenericLanguage": "Language",
+  "mediaInfoGenericProfile": "Profile",
+  "mediaInfoTitlesAudioCodec": "Audio | Audio {0}",
+  "mediaInfoTitlesEmbeddedImageCodec": "Image | Image {0}",
+  "mediaInfoTitlesSubtitleCodec": "Subtitle | Subtitle {0}",
+  "mediaInfoTitlesVideoCodec": "Video | Video {0}",
+  "mediaInfoVideoBitDepth": "Bit depth",
+  "mediaInfoVideoBitrate": "Bitrate",
+  "mediaInfoVideoColorPrimaries": "Color primaries",
+  "mediaInfoVideoColorRange": "Color range",
+  "mediaInfoVideoColorSpace": "Color space",
+  "mediaInfoVideoColorTransfer": "Color transfer",
+  "mediaInfoVideoDoViBlPresent": "DoVi BL present",
+  "mediaInfoVideoDoViBlSignalCompatId": "DV bl signal compatibility ID",
+  "mediaInfoVideoDoViElPresent": "DV el preset flag",
+  "mediaInfoVideoDoViLevel": "DV level",
+  "mediaInfoVideoDoViMajorVersion": "DV version major",
+  "mediaInfoVideoDoViMinorVersion": "DV version minor",
+  "mediaInfoVideoDoViProfile": "DV profile",
+  "mediaInfoVideoDoViRpuPresent": "DV rpu preset flag",
+  "mediaInfoVideoDoViTitle": "DV title",
+  "mediaInfoVideoFrameRate": "Framerate",
+  "mediaInfoVideoIsAnamorphic": "Anamorphic",
+  "mediaInfoVideoLevel": "Level",
+  "mediaInfoVideoPixelFormat": "Pixel format",
+  "mediaInfoVideoRange": "Video range",
+  "mediaInfoVideoRangeType": "Video range type",
+  "mediaInfoVideoRefFrames": "Ref frames",
+  "mediaInfoVideoResolution": "Resolution",
+  "mediaInfoVideoScanInterlaced": "Interlaced",
+  "mediaInfoVideoScanProgressive": "Progressive",
+  "mediaInfoVideoScanType": "Scan type",
+  "mediaInfoVideoTimestamp": "Timestamp",
   "menu": "Menu",
   "metadata": {
     "source": "Source",
@@ -195,6 +270,7 @@
   },
   "metadataEditor": "Metadata editor",
   "metadataNoResultsMatching": "No results matching \"{search}\". Press enter to create a new one.",
+  "metadataRefreshQueued": "Metadata refresh enqueued",
   "more": "More",
   "moreLikeArtist": "More like {artist}",
   "moreLikeThis": "More like this",
@@ -202,6 +278,7 @@
   "name": "Name",
   "networks": "Networks",
   "nextUp": "Next up",
+  "no": "No",
   "noImagesFound": "No images found",
   "noInformationAvailable": "No information available",
   "noNetworkConnection": "No network connection",
@@ -217,6 +294,7 @@
   "people": "People",
   "person": "Person",
   "play": "Play",
+  "playCount": "Play count",
   "playFromBeginning": "Play from the beginning",
   "playback": {
     "addToQueue": "Add to queue",
@@ -277,24 +355,35 @@
   "quality": "Quality",
   "queue": "Queue",
   "rating": "Rating",
+  "refresh": "Refresh",
   "refreshLibrary": "Refresh library",
+  "refreshMetadata": "Refresh metadata",
+  "refreshMetadataHint": "Metadata is refreshed based on settings and internet services that are enabled in the Dashboard",
   "releaseDate": "Release date",
   "remoteDevices": "Remote devices",
+  "replaceAllMetadata": "Replace all metadata",
+  "replaceExistingImages": "Replace existing images",
+  "results": "Results",
   "resumable": "Resumable",
   "resume": "Resume",
   "role": "Role",
+  "runtime": "Duration",
   "save": "Save",
   "saved": "Saved",
+  "scanForNewAndUpdatedFiles": "Scan for new and updated files",
   "search": {
     "name": "Search",
     "topResults": "Top results"
   },
+  "searchMissingMetadata": "Search for missing metadata",
+  "searchNoResults": "No results found",
   "seasonEpisode": "Season {seasonNumber}, Episode {episodeNumber}",
   "seasonEpisodeAbbrev": "S{seasonNumber} E{episodeNumber}",
+  "selectVersion": "Select version",
   "series": "Series",
   "server": "Server",
   "serverVersion": "Server version",
-  "serverVersionTooLow": "Server version needs to be 10.7.0 or higher",
+  "serverVersionTooLow": "Server version needs to be {version} or higher",
   "settings": {
     "apiKeys": {
       "accessToken": "Access token",
@@ -307,9 +396,11 @@
       "dateCreated": "Date created",
       "description": "Add and revoke API keys for external access to your server",
       "refreshKeysFailure": "Error refreshing API keys",
+      "revoke": "Revoke",
       "revokeAll": "Revoke all API keys",
       "revokeAllFailure": "Error revoking all API keys",
       "revokeAllSuccess": "Successfully revoked all API keys",
+      "revokeConfirm": "Confirm API key revocation",
       "revokeFailure": "Error revoking API key",
       "revokeSuccess": "Successfully revoked API key"
     },
@@ -320,6 +411,7 @@
       "deleteAll": "Delete all",
       "deleteAllDevicesError": "Error deleting all devices",
       "deleteAllDevicesSuccess": "All devices deleted successfully",
+      "deleteConfirm": "Confirm device deletion",
       "deleteDeviceError": "Error deleting device",
       "deleteDeviceSuccess": "Device deleted successfully",
       "deviceName": "Device name",
@@ -411,6 +503,11 @@
   },
   "shows": "Shows",
   "signIn": "Sign in",
+  "snackbar": {
+    "addedToQueue": "Added to queue",
+    "playNext": "The selected item will be played after the current one",
+    "routeValidationError": "The specified routeId in route params is not correct"
+  },
   "songs": "Songs",
   "sortByType": "By {type}",
   "sortTitle": "Sort title",
@@ -429,6 +526,7 @@
   "themeVideo": "Theme Video",
   "tooltips": {
     "changeLanguage": "Language",
+    "switchToAuto": "Follow system theme",
     "switchToDarkMode": "Switch to dark mode",
     "switchToLightMode": "Switch to light mode"
   },
@@ -484,6 +582,10 @@
       "seconds": "{count} second | {count} seconds"
     }
   },
+  "unknown": "Unknown",
+  "unknownAlbum": "Unknown album",
+  "unknownArtist": "Unknown artist",
+  "unknownTitle": "Unknown title",
   "unliked": "Unliked",
   "unplayed": "Unplayed",
   "upNext": "Up next",
@@ -522,5 +624,6 @@
   "writing": "Writing",
   "year": "Year",
   "years": "Years",
+  "yes": "Yes",
   "youMayAlsoLike": "You may also like"
 }
